@@ -109,10 +109,15 @@ const updateDate = () => {
   let currentMonth = completeDate.getMonth();
   let currentYear = completeDate.getFullYear();
 
-  // Update the Time
+/* Disabled
+  // Update the Time - AM, PM
   currentTime.innerHTML = `${
     currentHour % 12 == 0 ? "12" : currentHour % 12
   }:${currentMinute} ${currentHour > 11 ? "PM" : "AM"}`;
+*/
+
+// Update the Time - 24 hour
+  currentTime.innerHTML = `${currentHour}:${currentMinute}`;
 
   // Update the Date
   currentDate.innerHTML = `${DAYS[currentDay]} ${currentNumber}, ${MONTHS[currentMonth]} ${currentYear}`;
