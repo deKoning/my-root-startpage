@@ -7,6 +7,9 @@
 const NAME = "Vincent";
 
 const CARDS = [
+  { name: "pfSense Router", icon: "ri-router-fill", link: "https://pfsense/", },
+  { name: "pfSense Router", icon: "ri-router-fill", link: "https://pfsense/", },
+  { name: "pfSense Router", icon: "ri-router-fill", link: "https://pfsense/", },
   {
     name: "pfSense Router",
     icon: "ri-router-fill",
