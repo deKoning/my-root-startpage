@@ -7,23 +7,38 @@
 const NAME = "Vincent";
 
 const CARDS = [
+   {
+    name: "DuckDuckGo",
+    icon: "ri-search-line",
+    link: "https://duckduckgo.com/?kae=d&kp=-2&kax=-1&kaq=-1&kap=-1&kao=-1&kau=-1",
+  },
+    {
+    name: "pfSense Router",
+    icon: "ri-router-fill",
+    link: "https://pfsense/",
+  },
   {
     name: "Home Assistant",
     icon: "ri-home-heart-fill",
     link: "http://homeassistant:8123/",
   },
   {
-    name: "True Nas",
+    name: "Kodi Media PC",
+    icon: "ri-play-circle-fill",
+    link: "http://HTPC",
+  },
+  {
+    name: "TrueNas",
     icon: "ri-save-3-fill",
     link: "http://truenas",
   },
   {
-    name: "Sonarr",
+    name: "Sonarr (TV-series)",
     icon: "ri-movie-fill",
     link: "http://vm-werkplek:8989/",
   },
   {
-    name: "Radarr",
+    name: "Radarr (Movies)",
     icon: "ri-film-fill",
     link: "http://vm-werkplek:7878/",
   },
@@ -38,19 +53,14 @@ const CARDS = [
     link: "http://vm-werkplek:8080/",
   },
   {
-    name: "Camera voorkant",
+    name: "Camera front",
     icon: "ri-webcam-fill",
     link: "#",
   },
   {
-    name: "Camera achterrkant",
+    name: "Camera back",
     icon: "ri-webcam-fill",
     link: "#",
-  },
-   {
-    name: "DuckDuckGo",
-    icon: "ri-search-line",
-    link: "https://duckduckgo.com/?kae=d&kp=-2&kax=-1&kaq=-1&kap=-1&kao=-1&kau=-1",
   },
 ];
 
