@@ -42,7 +42,7 @@ main {
   justify-content: center;
 }
 
-input[type=text] {
+input[type=search] {
   color: var(--primary); 
   padding: 12px 20px;
   box-sizing: border-box;
