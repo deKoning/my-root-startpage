@@ -7,12 +7,7 @@
 const NAME = "Vincent";
 
 const CARDS = [
-   {
-    name: "DuckDuckGo",
-    icon: "ri-search-line",
-    link: "https://duckduckgo.com/?kae=d&kp=-2&kax=-1&kaq=-1&kap=-1&kao=-1&kau=-1",
-  },
-    {
+  {
     name: "pfSense Router",
     icon: "ri-router-fill",
     link: "https://pfsense/",
@@ -52,6 +47,8 @@ const CARDS = [
     icon: "ri-download-cloud-2-fill",
     link: "http://vm-werkplek:8080/",
   },
+   
+/* Disabled Cards
   {
     name: "Camera front",
     icon: "ri-webcam-fill",
@@ -62,6 +59,8 @@ const CARDS = [
     icon: "ri-webcam-fill",
     link: "#",
   },
+*/
+   
 ];
 
 /* -------------------------------------------------------- */
