@@ -20,7 +20,7 @@ const CARDS = [
   {
     name: "Kodi Media PC",
     icon: "ri-play-circle-fill",
-    link: "http://HTPC",
+    link: "http://vdekoning-ms-7890:8080",
   },
   {
     name: "TrueNas",
