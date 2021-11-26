@@ -4,63 +4,53 @@
 
 /* -------------------------------------------------------- */
 
-const NAME = "Reyes";
+const NAME = "Vincent";
 
 const CARDS = [
   {
-    name: "Apple Music",
-    icon: "ri-music-2-fill",
-    link: "https://music.apple.com/us/browse",
+    name: "Home Assistant",
+    icon: "ri-home-heart-fill",
+    link: "http://homeassistant:8123/",
   },
   {
-    name: "Reddit",
-    icon: "ri-reddit-fill",
-    link: "https://www.reddit.com/",
+    name: "True Nas",
+    icon: "ri-save-3-fill",
+    link: "http://truenas",
   },
   {
-    name: "Figma",
-    icon: "ri-palette-fill",
-    link: "https://www.figma.com/",
+    name: "Sonarr",
+    icon: "ri-movie-fill",
+    link: "http://vm-werkplek:8989/",
   },
   {
-    name: "Github",
-    icon: "ri-github-fill",
-    link: "https://github.com/",
+    name: "Radarr",
+    icon: "ri-film-fill",
+    link: "http://vm-werkplek:7878/",
   },
   {
-    name: "Twitter",
-    icon: "ri-twitter-fill",
-    link: "https://twitter.com",
+    name: "Qbittorrent",
+    icon: "ri-download-cloud-2-fill",
+    link: "http://vm-werkplek:8085/",
   },
   {
-    name: "Dribbble",
-    icon: "ri-dribbble-fill",
-    link: "https://dribbble.com/",
+    name: "SABnzbd",
+    icon: "ri-download-cloud-2-fill",
+    link: "http://vm-werkplek:8080/",
   },
   {
-    name: "Hashnode",
-    icon: "ri-hashtag",
-    link: "https://hashnode.com/",
+    name: "Camera voorkant",
+    icon: "ri-webcam-fill",
+    link: "#",
   },
   {
-    name: "CodeSandbox",
-    icon: "ri-cloud-fill",
-    link: "https://codesandbox.io/dashboard/",
+    name: "Camera achterrkant",
+    icon: "ri-webcam-fill",
+    link: "#",
   },
-  {
-    name: "YouTube",
-    icon: "ri-youtube-fill",
-    link: "https://www.youtube.com/",
-  },
-  {
-    name: "LinkedIn",
-    icon: "ri-linkedin-fill",
-    link: "https://www.linkedin.com/",
-  },
-  {
-    name: "Gmail",
-    icon: "ri-google-fill",
-    link: "https://mail.google.com/",
+   {
+    name: "DuckDuckGo",
+    icon: "ri-search-line",
+    link: "https://duckduckgo.com/?kae=d&kp=-2&kax=-1&kaq=-1&kap=-1&kao=-1&kau=-1",
   },
 ];
 
