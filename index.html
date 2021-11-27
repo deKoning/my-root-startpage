@@ -34,13 +34,14 @@
     
     <main id="cardContainer">
 
-    <br>
-    <form class="card" method="get" action="https://duckduckgo.com/?q=q" autocomplete="off">
-    <input autofocus placeholder="Search DuckDuckGo.." name="q">
+    <form action="https://duckduckgo.com/?q=q" method="get">
+        <a href="javascript:;" onclick="parentNode.submit();"><%=n%></a>
+        <input name="q" value=<%=n%>/>
     </form>
-
+    
+    </main>
     <script src="./app.js"></script>
 
-   </main>
+
   </body>
 </html>
