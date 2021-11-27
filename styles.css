@@ -52,6 +52,28 @@ input[type=search] {
   border: 1px solid rgba(255,255,255,.05);
   outline: none;
   transition: 0.1s; 
+
+  color: white;
+  text-decoration: none;
+
+  margin: 1.2rem;
+  padding: 4rem 8rem;
+
+  background-color: var(--background-light);
+  border-radius: 15px;
+  border: 1px solid rgba(255,255,255,.05);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+
+  outline: none;
+  transition: 0.1s;
+
 }
 
 .header {
