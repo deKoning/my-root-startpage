@@ -27,6 +27,11 @@ const CARDS = [
     icon: "ri-pencil-ruler-line",
     link: "https://projects.invisionapp.com/d/main?origin=v7#/projects",
   },
+  {
+    name: "Office online",
+    icon: "ri-building-line",
+    link: "https://www.office.com/apps?auth=2&home=1",
+  },
 ];
 
 /* -------------------------------------------------------- */
