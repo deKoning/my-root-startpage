@@ -8,12 +8,17 @@ const NAME = "Worker";
 
 const CARDS = [
   {
-    name: "Team Foundation Server",
+    name: "Intranet",
+    icon: "ri-book-read-line",
+    link: "https://stichtingmenzisbeheer.sharepoint.com/sites/intranet/",
+  },
+  {
+    name: "Requirements",
     icon: "ri-list-ordered",
     link: "http://tfs.loods2.org:8080/tfs/",
   },
   {
-    name: "Environment shortcuts",
+    name: "Environments",
     icon: "ri-link",
     link: "https://stichtingmenzisbeheer.sharepoint.com/sites/iv-classic/commercie/teamweb/SitePages/Linkjes-ACC.aspx",
   },
@@ -22,7 +27,6 @@ const CARDS = [
     icon: "ri-pencil-ruler-line",
     link: "https://projects.invisionapp.com/d/main?origin=v7#/projects",
   },
-   
 ];
 
 /* -------------------------------------------------------- */
