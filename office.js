@@ -32,6 +32,13 @@ const CARDS = [
     icon: "ri-building-line",
     link: "https://www.office.com/apps?auth=2&home=1",
   },
+  {
+    name: "Draw.io",
+    icon: "ri-bubble-chart-line",
+    link: "https://app.diagrams.net/",
+  },
+
+  
 ];
 
 /* -------------------------------------------------------- */
