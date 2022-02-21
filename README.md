@@ -22,12 +22,12 @@ To change the colors used in the startpage edit `styles.css`.
 }
 ```
 
-### Changin Name and Adding Custom Cards
-add value to URL
+### Changin displayed Name
+Add value to URL
 ```html
 ?name=Vincent
 ````
-example:
+Example:
 ```html
 https://www.examplesite.nl/index.html?nameurl=Vincent
 ```
