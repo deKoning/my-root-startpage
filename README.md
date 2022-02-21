@@ -73,7 +73,7 @@ To use 24 hour time simply change the time section of `app.js` to
 
 ### Changin search engine in search bar
 
-For change to Google udate index.html, default is DuckDuckGo
+For change to Google update index.html, default is DuckDuckGo
 ```html
   		<form id="searchbar" method="get" action="https://google.com/?q=q" autocomplete="off">
 ```
