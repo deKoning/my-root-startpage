@@ -23,14 +23,22 @@ To change the colors used in the startpage edit `styles.css`.
 ```
 
 ### Changin Name and Adding Custom Cards
+add value to URL
+```html
+?name=Vincent
+````
+example:
+```html
+https://www.examplesite.nl/index.html?nameurl=Vincent
+```
+
+### Adding Custom Cards
 
 > This project uses [Remix Icons](https://remixicon.com/).
 
 To change the default name and edit the cards, edit `app.js`. It should look something like this:
 
 ```js
-const NAME = "John Doe";
-
 const CARDS = [
   {
     name: "Twitter",
@@ -63,9 +71,10 @@ To use 24 hour time simply change the time section of `app.js` to
   currentTime.innerHTML = `${currentHour}:${currentMinute}`;
 ```
 
-This function now has a search bar with auto focus
+### Changin search engine in search bar
 
 For change to Google udate index.html, default is DuckDuckGo
-```
+```html
   		<form id="searchbar" method="get" action="https://google.com/?q=q" autocomplete="off">
 ```
+
