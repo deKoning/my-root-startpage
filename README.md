@@ -62,3 +62,10 @@ To use 24 hour time simply change the time section of `app.js` to
 // Update the Time
   currentTime.innerHTML = `${currentHour}:${currentMinute}`;
 ```
+
+This function now has a search bar with auto focus
+
+For change to Google udate index.html, default is DuckDuckGo
+```
+  		<form id="searchbar" method="get" action="https://google.com/?q=q" autocomplete="off">
+```
