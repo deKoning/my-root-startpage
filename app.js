@@ -174,6 +174,7 @@ const printCards = () => {
           const urlParams = new URLSearchParams(queryString);
 
           const nameUser = urlParams.get('nameurl')
+          const messageUser = urlParams.get('messageurl')
         //  alert(nameUser);
         
         // update the nameUser in the HTML file
