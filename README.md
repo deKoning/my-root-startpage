@@ -22,14 +22,18 @@ To change the colors used in the startpage edit `styles.css`.
 }
 ```
 
-### Changin displayed Name
-Add value to URL
+### Changin displayed Name and Message
+Add name value to URL
 ```html
-?name=Vincent
+?nameurl=Vincent
 ````
+And for message add:
+```html
+&messageurl=Hello%20there
+```
 Example:
 ```html
-https://www.examplesite.nl/index.html?nameurl=Vincent
+https://www.examplesite.nl/index.html?nameurl=Vincent&messageurl=Hello there
 ```
 
 ### Adding Custom Cards
