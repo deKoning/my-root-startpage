@@ -9,7 +9,7 @@ This version of the project contains an searchbar for quick and easy online sear
 
 Root was created to be lightweight, fast and easy to customize.
 
-### Changin Colors
+### Changing Colors
 
 To change the colors used in the startpage edit `styles.css`.
 
