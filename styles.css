@@ -133,7 +133,10 @@ input[type=search] {
 }
 
 .card:hover > .card__name {
+  /*
   bottom: 0;
+  */
+  bottom: 5%;
 }
 
 .card__icon {
@@ -154,7 +157,10 @@ input[type=search] {
   transform: translate(-50%, -50%);
 
   position: absolute;
+  /*
   bottom: -25%;
+  */
+  bottom: 0%;
   left: 50%;
 
   transition: 0.1s;
