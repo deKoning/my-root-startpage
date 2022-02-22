@@ -22,7 +22,7 @@ To change the colors used in the startpage edit `styles.css`.
 }
 ```
 
-### Changin displayed Name and Message
+### Changing displayed Name and Message
 Add name value to URL
 ```html
 ?nameurl=Vincent
