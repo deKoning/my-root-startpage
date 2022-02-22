@@ -186,5 +186,8 @@ const printCards = () => {
 
 // userName.innerHTML = NAME;
 userName.innerHTML = nameUser;
+userMessage.innerHTML = messageUser;
+userMessage.style.color = "#FFC759";
+
 printCards();
 updateDate();
