@@ -165,3 +165,26 @@ input[type=search] {
 
   transition: 0.1s;
 }
+
+/*
+@media (prefers-color-scheme: dark){
+  body {
+   background-color: #000;
+   filter: invert(1);
+  }
+ 
+  img {
+    filter: invert(1);
+  }
+}
+*/
+
+@media (prefers-color-scheme: dark) {
+  /* Voeg hier de CSS code die je wilt gebruiken om je website een Dark Mode te geven */
+    :root {
+      --primary: #FFC759;
+      --text-light: #eeeeee;
+      --background: #191E29;
+      --background-light: #202633;
+    }
+  }
