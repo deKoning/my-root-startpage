@@ -15,10 +15,10 @@ To change the colors used in the startpage edit `styles.css`.
 
 ```css
 :root {
-  --primary: #dd2e44;
-  --text-light: #eeeeee;
-  --background: #1e1c21;
-  --background-light: #333138;
+  --primary: #eeeeee;
+  --text-light: #FFC759
+  --background: #002f6c;
+  --background-light: #00408c;
 }
 ```
 
