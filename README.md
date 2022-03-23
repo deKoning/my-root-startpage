@@ -82,3 +82,19 @@ For change to Google update index.html, default is DuckDuckGo
   		<form id="searchbar" method="get" action="https://google.com/?q=q" autocomplete="off">
 ```
 
+
+### Change colors for dark-mode
+
+Edit the CSS file after 'prefers-color-scheme: dark'
+```html
+    @media (prefers-color-scheme: dark) {
+    /* Voeg hier de CSS code die je wilt gebruiken om je website een Dark Mode te geven */
+      :root {
+      --primary: #FFC759;
+      --text-light: #eeeeee;
+      --background: #191E29;
+      --background-light: #202633;
+      }
+    }
+```
+
