@@ -1,6 +1,6 @@
 ![](./assets/header.png)
 
-### Custom version
+### Added features to this version
 - added: Search input field (currently setup for DuckDuckGo)
 - added: Custom Name in URL
 - added: Custom Messages in URL
