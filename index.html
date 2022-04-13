@@ -27,6 +27,8 @@
       <p id="currentTime">00:00 PM</p>
     </header>
     
+    <p><a id="show-message">Show information again</a></p>
+    
         <br>
     		<form id="searchbar" method="get" action="https://duckduckgo.com/?q=q" autocomplete="off">
         <input autofocus type="search" placeholder="Search DuckDuckGo.." id="searchbar_input" name="q">
@@ -34,6 +36,23 @@
     
     <main id="cardContainer"> </main>
     <script src="./app.js"></script>
+    
+          <!-- One time Popup -->
+          <div id="my-welcome-message">
+          <h2>Quick info</h2><br>
+          <p><b>Add this to the URL:</b> ?nameurl=name&messageurl=my message </p>
+          <p></p><a href="index.html?nameurl=Vincent&messageurl=Hello there">Example</a></p>
+          </div>
+          <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+          <script src="jquery.firstVisitPopup.js"></script> 
+          <script>
+            $(function () {
+            $('#my-welcome-message').firstVisitPopup({
+            cookieName : 'onetimepopup',
+            showAgainSelector: '#show-message'
+            });
+            });
+          </script><script type="text/javascript">
 
   </body>
 </html>
